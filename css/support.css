@@ -1,0 +1,173 @@
+
+html,body{
+	width:100%;
+	height:100%
+}
+  h1{
+      text-align: center;
+    }
+    .part1{
+        float:center;
+    }
+    .title{
+        width: 600px;
+        height: 50px;
+    }
+.sou-suo{
+    width: 100%;
+    min-width:1263px;
+    height: 440px;
+    position: relative;
+}
+.sou-suo h2{
+    display: none;
+}
+.sou-suo .sou-suo2{
+    width: 600px;
+    height: 60px;
+   /* background-color: #000000;*/
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    border-radius: 8px;
+    opacity: 0.7;
+}
+.sou-suo .sou-suo3{
+    width: 577px;
+    height: 52px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -30px;
+    border-radius: 8px;
+}
+.sou-suo .sou-suo3 input{
+    width: 577px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    margin: 5px 0 5px 5px;
+    padding: 0 5px 0 5px;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.link{
+  
+        line-height: 2;
+        text-align: center;
+       
+}
+.change,.more,.yg,.fw{
+    text-align: center;
+}
+.li{
+    list-style:none;
+}
+.yg,.as-center0{
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.more,.icon1{
+    margin-bottom: 60px;
+}
+.tb{
+    float: left;
+}
+/*part3代码*/
+.part3>.wz{float:left;margin-left: 280px;}
+.part3>.tp{float:right;margin-right: 280px;margin-bottom: 35px;}
+/*part4代码*/
+
+.hgjg{
+    border: #cccccc solid 1px;
+    width: 100%;
+}
+.hgjg{position: relative;}
+    .x-title{
+        position: absolute;
+        top:1200px;height:80px;
+        left:80px;line-height:30px;
+        width: 600px;}
+/*part5代码*/
+.part5>.left{float:left;margin-left: 180px;margin-bottom: 35px;margin-top: 35px;}
+.part5>.right{float:right;margin-right: 180px;margin-bottom:30px;margin-top: 35px;}
+/*part6代码*/
+.czkc{border: #cccccc solid 1px;width: 100%;position: relative;}
+.k-title{
+    color: #cccccc;
+    position: absolute;
+    top:2000px;height:80px;
+    left:80px;line-height:30px;
+    width: 600px;}
+
+
+    
+.product{
+    background-size: 100%}
+.product>li:nth-child(6n)
+{
+    margin-right: 0;
+}
+.product::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.ul,.product{
+    list-style: none;
+}
+.divider0{margin-top: 40px；}
+.product>li{
+float: left;
+height: 100px;
+width:160px;
+margin-right: 12px;
+margin-bottom: 20px;
+
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    background-color: #cccccc;
+}
+.products>div{
+height:100px;
+}
+.products>div.left{
+background-color: pink;
+width: 100px;}
+.products>div.right{
+background-color:teal;
+flex: 1;}
+
+.section {width:100%; border:0px ;}
+.section .wrap {overflow: hidden;
+text-align: center;}
+.isecu {
+    float:right; 
+    margin-right: 350px;}
+.p {margin-bottom:5px; overflow: hidden;}
+.clearfix{
+    margin-right: 200px;
+}
+p .clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.part2{
+    margin-left: 150px;
+    margin-right: 80px;
+}
+.ic{
+    margin-bottom: 15px;
+}
+
+/*.sou-suo .sou-suo3 button:hover{
+    background-color: #C6C6C6;
+}
+*/
