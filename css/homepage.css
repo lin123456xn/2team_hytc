@@ -1,0 +1,93 @@
+/*第一段格式*/
+.contain{
+    width: 1200px
+}
+.sl{
+    width: 100%;}
+.sl>.sj{
+    text-align: center;
+}
+ul{
+    list-style: none
+}
+.sk{
+    color: dodgerblue
+}
+.su{
+    color: dodgerblue
+}
+.sj{
+    background: #fafafa
+}
+/*第二段格式*/
+.wl>.wj{
+    text-align: center;
+}
+.wk{
+    color: dodgerblue
+}
+.wu{
+    color: dodgerblue
+}
+.wj{
+    background: #fafafa
+}
+
+/*第三段格式*/
+.ql>.qj{
+    text-align: center;
+}
+.qk{
+    color: dodgerblue
+}
+.qu{
+    color: dodgerblue
+}
+.qj{
+    background: #fafafa
+}
+
+/*第四段格式*/
+.al>.aj{
+    text-align: center;
+}
+.ak{
+    color: dodgerblue
+}
+.au{
+    color: dodgerblue
+}
+.aj{
+    background: #fafafa
+}
+.al>.aj>ul>h2{
+    color: rgb(226, 26, 133)
+}
+.ax{
+    margin-top: 20px
+}
+/*第五段格式*/
+.bl>.bj{
+    float: left;
+    margin-left: 270px;
+}
+.bl>.cj{
+    float: right;
+    margin-right: 300px;
+}
+.bk{
+    color: dodgerblue
+}
+.bu{
+    color: dodgerblue
+}
+.bl::after{
+    background: #fafafa
+}
+
+.ck{
+    color: dodgerblue
+}
+.cu{
+    color: dodgerblue
+}
