@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <style>
+        .dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-right: 200px;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    background-color:white;
+    min-width: 250px;
+    font-size:12px; 
+    box-shadow: 8px 8px 8px 8px rgba(0,0,0,0.2);
+    padding: 0,20px;
+    z-index: 1;
+}
+p:hover{
+    color: blue;
+}
+div{ 
+    cursor:pointer 
+    }
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content-1{
+    text-align:center;
+    color: silver;
+    font-size: 14px;
+    line-height: 50px;
+    margin: 0;
+    border-bottom:1px solid dimgray;
+}
+.dropdown-content-2,.dropdown-content-3,.dropdown-content-4,.dropdown-content-5,.dropdown-content-6{
+    color: dodgerblue;
+    height: 30px;
+    border-bottom:1px solid dimgray;
+    list-style: none;
+    padding-left: 1em;
+}
+    </style>
+</head>
+<body> 
+    <div class="dropdown">
+                <ul><img src="./image/shop/购物车.png" alt="1"></ul>
+                <div class="dropdown-content">
+                <p>
+                  <p class="dropdown-content-1">你的购物袋是空的</p>
+                </p>
+                <p>
+                  <p class="dropdown-content-2"><img src="./image/shop/购物袋.png" alt=""> 购物袋</p>
+                </p>
+                <p>
+                     <p class="dropdown-content-3"><img src="./image/shop/收藏.jpg" alt=""> 收藏</p>
+                </p>
+                <p>
+                  <p class="dropdown-content-4"><img src="./image/shop/订单.jpg" alt=""> 订单</p>
+                </p>
+                <p>
+                  <p class="dropdown-content-5"><img src="./image/shop/账户.jpg" alt=""> 账户</p>
+                </p>
+                <p>
+                  <p class="dropdown-content-6"><img src="./image/shop/登录.jpg" alt=""> 登录</p>
+                </p>
+                </div>
+              </div>
+</body>
+</html>
