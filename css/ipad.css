@@ -1,0 +1,134 @@
+/* 重置样式 */
+html {
+  font-size: 14px;
+  color: #333333;
+}
+body {
+  margin: 0;
+}
+ul,h1,h2,h3 {
+  margin: 0;
+  padding: 0;
+}
+ul ,li{
+  list-style: none;
+}
+a {
+  color: #3593eb;
+  text-decoration: none;
+}
+.header {
+  height: 2em;
+  line-height: 2em;
+  background-color: #333333;
+}
+.container{
+  background-color: #fafafa;
+  height: 100%;
+}
+
+.content {
+  background-color: #fafafa;
+  height: 100%;
+}
+.content > .wrapper {
+  min-height: 1000px;
+  width: 1200px;
+  margin: 0 auto ;
+  background-color: #ffffff;
+}
+/*导航*/
+.top_nav{
+  height: 120px;
+  text-align: center;
+  background-color: #fafafa;
+}
+.top_nav > ul > li {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
+  cursor: pointer;
+
+}
+ .top_nav > ul > li:nth-child(1){
+  margin-left : 30px;
+}
+/*系列*/
+
+.content .xilie {
+  height: 1600px;
+  background-color: #ffffff;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+
+.columnpro{
+  float: left;
+  text-align: left;
+  margin: 80px 0 5px 200px;
+}
+
+.columnair{
+  float: right;
+  text-align: left;
+  padding-top: 100px;
+  padding-right: 100px;
+  
+}
+
+.columnipad{
+  float: left;
+  text-align: left;
+  margin: 80px 0 5px 200px;
+}
+.columnmini{
+  float: right;
+  text-align: left;
+  padding-top: 100px;
+  padding-right: 100px;
+  
+}
+
+/*机型比较*/
+
+.content .compare > ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.compare .wrapper{
+  text-align: center;
+  background-color: #edf885;
+  margin-top: 100px;
+  height: 700px;
+  width: 1200px;
+  margin-top: 5em;
+}
+.pro-c,.air-c,.ipad-c{
+  float: left;
+  text-align: center;
+}
+
+/* 低价换购*/
+.content .adv1{
+  text-align: center;
+  margin-top: 4em;
+  height: 500px;
+  width: 1200px;
+  background-color: #ffffff;
+}
+
+
+  /*分期付款*/
+  .buystrip{
+    text-align: center;
+    margin-top: 3em;
+    padding-bottom: 3em;
+    background-color: #f2f2f2;
+  }
+  
+  
+
+
