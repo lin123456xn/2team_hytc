@@ -1,11 +1,11 @@
 /* music样式 */
 html {
-    margin-top: 160px ;
-
+    margin-top: 0px ;
 }
+
 body{
-    margin:30 30px;
-    margin-left:250px;
+    margin:0px;
+  margin-left:200px;
     font-size:40px;
     font-weight:bold;
 }
@@ -209,3 +209,4 @@ body{
     text-align:center;
     font-size:15px; 
 }
+
