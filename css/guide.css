@@ -134,7 +134,7 @@ html {
       }
       
       .products>ul>li>a {
-          font-size: 5px;
+          font-size: 10px;
           display: block;
           color: black;
           text-align: center;
